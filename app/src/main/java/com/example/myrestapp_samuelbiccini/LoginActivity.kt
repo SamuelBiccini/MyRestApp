@@ -27,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
     private fun controlloLogin(nome: String, password: String){
         //Login
         val nomeUtente = "Biccini"
-        val passwordUtente = "a883dafc480d466ee04e0d6da986bd78eb1fdd2178d04693723da3a8f95d42f4" //1234
+        val passwordUtente = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4" //1234
 
         //Se gli inpjut sono corretti
         if(nomeUtente == nome && passwordUtente == password){
