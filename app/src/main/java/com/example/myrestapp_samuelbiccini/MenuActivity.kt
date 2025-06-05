@@ -21,5 +21,11 @@ class MenuActivity : AppCompatActivity() {
             val mioIntent = Intent(this, NetflixActivity::class.java)
             startActivity(mioIntent)
         }
+
+        bottoneSearch.setOnClickListener {
+            val mioIntent = Intent(this, SearchActivity::class.java)
+            startActivity(mioIntent)
+        }
+
     }
 }
